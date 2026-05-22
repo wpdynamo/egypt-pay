@@ -1,0 +1,43 @@
+{
+  "name": "egypt-pay",
+  "version": "1.0.0",
+  "description": "Unified payment gateway library for Egyptian payment providers (Kashier, Paymob)",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./kashier": {
+      "types": "./dist/kashier/index.d.ts",
+      "import": "./dist/kashier/index.js"
+    },
+    "./paymob": {
+      "types": "./dist/paymob/index.d.ts",
+      "import": "./dist/paymob/index.js"
+    }
+  },
+  "files": ["dist", "src"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "payment",
+    "egypt",
+    "kashier",
+    "paymob",
+    "gateway",
+    "typescript",
+    "cloudflare-workers"
+  ],
+  "author": "wpdynamo",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.0"
+  }
+}
