@@ -1,6 +1,6 @@
 {
   "name": "egypt-pay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unified payment gateway library for Egyptian payment providers (Kashier, Paymob)",
   "type": "module",
   "main": "./dist/index.js",

@@ -7,7 +7,7 @@ Unified payment gateway library for Egyptian payment providers.
 **Dependencies:** None (uses Web Crypto API)
 
 
-![egypt-pay](./assets/banner.png)
+![egypt-pay](https://raw.githubusercontent.com/wpdynamo/egypt-pay/main/assets/banner.png)
 
 
 ## Installation
