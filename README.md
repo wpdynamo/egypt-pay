@@ -6,6 +6,10 @@ Unified payment gateway library for Egyptian payment providers.
 **Runtime:** Node 18+, Cloudflare Workers, Deno, Bun  
 **Dependencies:** None (uses Web Crypto API)
 
+
+![egypt-pay](./assets/banner.png)
+
+
 ## Installation
 
 ```bash
